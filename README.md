@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](![screenshot](https://github.com/aminahh02/land-page/assets/155196077/79bcf728-d1e9-4a3b-ad5f-7cf32afb0555))
 
 ### Links
 
