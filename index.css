@@ -1,0 +1,161 @@
+html {
+    font-size: 10px;
+    padding: 20px 60px;
+    background-image: url(images/bg-desktop.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 1100px 600px;
+    background-attachment: fixed;
+    background-color: hsl(257, 40%, 49%);
+}
+
+
+.container {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 40px;
+    align-items: center;
+
+}
+
+.mock {
+    width: 100%;
+}
+
+
+h1 {
+    color: white;
+    font-family: Poppins;
+    padding: 0px;
+    margin: 0px;
+    font-size: 5em;
+    word-wrap: break-word;
+    font-weight: 600;
+}
+
+.title {
+    padding: 0px;
+    margin: 0px;
+}
+
+p {
+   color: white;
+   font-family: Open Sans;
+   font-size: 2.1em;
+   margin: 0px;
+   padding-bottom: 0px;
+   font-weight: 400;
+}
+
+.bttn {
+    background-color: white;
+    border: none;
+    color: hsl(257, 40%, 49%);
+    padding: 15px 70px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Open Sans;
+    font-weight: 400;
+    border-radius: 25px;
+}
+
+.bttn:hover {
+    background-color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+    transition: 200ms ease-out;
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.footer {
+    position: fixed;
+    bottom: 3%;
+    right: 4%;
+}
+
+.fa-brands {
+    border: 1px solid white;
+    padding: 8px;
+    margin: 4px;
+    border-radius: 50px;
+}
+
+.fa-brands:hover {
+    border-color: hsl(300, 69%, 71%);
+    transition: 200ms ease-out;
+    cursor: pointer;
+}
+
+.fa-facebook-f {
+    padding: 9px 12px;
+}
+
+@media screen and (max-width: 425px) {
+    html {
+        padding: 10px 18px;
+        font-size: 5px;
+        overflow-y: hidden;
+        margin: auto;
+    }
+
+    .container {
+        width: 100;
+        margin: auto;
+        margin-top: 20px;
+        display: grid;
+        grid-template-rows: 150px 200px;
+        grid-template-columns: none;
+        text-align: center;
+    }
+    .mock {
+        width: 60%;
+    }
+    h1 {
+        margin: 50px 0px 0px 0px;
+    }
+
+    p {
+        padding: 0px 20px;
+        margin: 15px 0px;
+        font-size: 14px;
+    }
+    .footer {
+        position: fixed;
+        right: 38%;
+        bottom: 2%;
+    }
+    .imge {
+        width: 90px;
+    }
+
+    .bttn {
+        background-color: white;
+        border: none;
+        color: hsl(257, 40%, 49%);
+        padding: 8px 60px;
+        text-align: center;
+        font-size: 16px;
+        font-family: Open Sans;
+        font-weight: 400;
+        border-radius: 25px;
+    }
+    
+    .bttn:hover {
+        background-color: hsl(300, 69%, 71%);
+        border-color: hsl(300, 69%, 71%);
+        transition: 200ms ease-out;
+        cursor: pointer;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+
+    .fa-brands {
+        border: 1px solid white;
+        padding: 7px;
+        margin: 3px;
+        border-radius: 50px;
+    }
+    .fa-facebook-f {
+        padding: 7px 8px;
+    }
+  }
